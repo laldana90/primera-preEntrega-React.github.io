@@ -6,8 +6,14 @@
 
 .categories-card {
     margin: 5%;
-    height: 350px;
+    height: 450px;
     
+}
+
+.card-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .categories-card:hover {
@@ -19,7 +25,7 @@
 .categories-button {
     margin: 0;
     position: absolute;
-    bottom: -5%;
+    margin-top: 15px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -27,4 +33,6 @@
     color: black;
     font-weight: bold;
 }
+
+
 
